@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ecommerce for bootcamp 10.08.2022 </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <!--   start Navbar  -->
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white" href="#"> <i>Ecommerce</i> </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="row col-lg-3">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-white-50" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Catagories
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Electronic</a></li>
+                                        <li><a class="dropdown-item" href="#">Gloths</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider" />
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">Books</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white-50" aria-current="page" href="#">Contact</a>
+                                </li>
+                            </ul>
+
+                            <form class="d-flex">
+                                <button class="btn btn-outline-light" type="submit">
+                                    <i class="bi-cart-fill me-1"></i>
+                                    Cart
+                                    <span class="badge bg-dark text-white ms-1 rounded-pill ">0</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!--   Ende Navbar  -->
+    <!--  Start Header -->
+    <div class="rwo">
+        <div class="col">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img4.jpg" class="d-block w-100" alt="header img3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img5.jpg" class="d-block w-100" alt="header img3">
+                    </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!--  End Header -->
+    <!--   Start Sidbar  -->
+    <div class="row">
+        <div class="colo">
+            <span class="text-danger mx-3"> All CATEGORIES</span>
+
+            <div class="d-flex mx-5 ">
+                <div class="bg-white" id="sidebar-wrapper">
+                    <div class="sidebar-heading pt-2">Ram</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            8 GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            16 GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            36 GB
+                        </label>
+                    </div>
+                    <!-- Brand -->
+                    <div class="sidebar-heading pt-2">Brand</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            8 GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            16 GB
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            36 GB
+                        </label>
+                    </div>
+                    <!--    Type  -->
+                    <div class="sidebar-heading pt-2">Type</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Intel Core i7
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Intel Core i5
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Intel Core i3
+                        </label>
+                    </div>
+                    <!--  Price -->
+                    <div class="sidebar-heading pt-2">Price</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            500 -700
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            700 - 900
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            900 - 1500
+                        </label>
+                    </div>
+                    <!-- Screens -->
+                    <div class="sidebar-heading pt-2">Screens</div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            14 in
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            15.6 in
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                        <label class="form-check-label" for="flexCheckChecked">
+                            17.3 in
+                        </label>
+                    </div>
+
+                </div>
+                <section class="col-lg-11">
+                    <div class="container px-4 px-lg-5 mt-5">
+                        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Product image-->
+                                    <div>
+                                        <img class="card-img-top" src="img3.jpg" alt="..." style="height: 200px;" />
+                                    </div>
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product price-->
+                                            <p class="border-bottom text-danger text-decoration-line-through"> $40.00
+                                            </p><span>$80.00</span>
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"><i
+                                                    class="bi bi-cart"></i> View
+                                                options</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Sale badge-->
+                                    <div class="badge bg-dark text-white position-absolute"
+                                        style="top: 0.5rem; right: 0.5rem">Sale
+                                    </div>
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img4.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product reviews-->
+                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                            </div>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through ">$20.00</span>
+                                            <hr>
+                                            $18.00
+                                        </div>
+                                        <hr>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"><i
+                                                    class="bi bi-cart"></i> Add to
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Sale badge-->
+                                    <div class="badge bg-dark text-white position-absolute"
+                                        style="top: 0.5rem; right: 0.5rem">Sale
+                                    </div>
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img5.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span><br>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"><i
+                                                    class="bi bi-cart"></i> Add to
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img3.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product reviews-->
+                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                            </div>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"><i
+                                                    class="bi bi-cart"></i> Add to
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Sale badge-->
+                                    <div class="badge bg-dark text-white position-absolute"
+                                        style="top: 0.5rem; right: 0.5rem">Sale
+                                    </div>
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img4.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"> <i
+                                                    class="bi bi-cart"></i> Add to
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Product image-->
+                                    <img class="card-img-top h-100" src="img5.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"> <i
+                                                    class="bi bi-cart"></i> View
+                                                options</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Sale badge-->
+                                    <div class="badge bg-dark text-white position-absolute"
+                                        style="top: 0.5rem; right: 0.5rem">Sale
+                                    </div>
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img3.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class=" card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product reviews-->
+                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                            </div>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"> <i
+                                                    class="bi bi-cart"></i> Add to
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col mb-5">
+                                <div class="card h-100">
+                                    <!-- Product image-->
+                                    <img class="card-img-top" src="img4.jpg" alt="..." style="height: 200px;" />
+                                    <!-- Product details-->
+                                    <div class="card-body p-4">
+                                        <div class="text-center">
+                                            <!-- Product name-->
+                                            <h5 class="fw-bolder">Lenovo H15 Amd Ryzen5</h5>
+                                            <p class="border-bottom">Some Quik Example text to.
+                                            </p>
+                                            <!-- Product reviews-->
+                                            <div class="d-flex justify-content-center small text-warning mb-2">
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                                <div class="bi-star-fill"></div>
+                                            </div>
+                                            <!-- Product price-->
+                                            <span class="text-danger text-decoration-line-through">$50.00</span>
+                                            <hr>
+                                            $25.00
+                                            <hr>
+                                        </div>
+                                    </div>
+                                    <!-- Product actions-->
+                                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        <div class="text-center"><a
+                                                class="btn btn-outline- bg-primary text-light mt-auto" href="#"> <i
+                                                    class="bi bi-cart"></i> Add to test
+                                                cart</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <!-- Footer-->
+            <footer class="py-5 bg-dark">
+                <div class="container">
+                    <p class="m-0 text-center text-white"> <a href="https://safollah-karimi.netlify.app/"
+                            class="text-light">Copyright &copy; Safis Ecommerce 2022</a> </p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Safolah Karimi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tenetur impedit eos placeat
+                        quo minus nesciunt aut odit facilis possimus! Reprehenderit voluptatem illo beatae laboriosam
+                        dolor, maxime cumque vero saepe.</p>
+                    <img src="https://media.istockphoto.com/photos/boy-and-dog-in-toy-racing-car-picture-id1162019476?b=1&k=20&m=1162019476&s=612x612&w=0&h=Oco6yKcVpEyRF_b4gvBWzz-NlEVkjBnfCAu_8DFuPGw="
+                        class="img-thumbnail" alt=" Modal image">
+                    <a href="https://safi.bluemouse.ch/" target="_blank">1: for more infos</a><br>
+                    <a href="https://safollah-karimi.netlify.app/" target="_blank">2: for more infos</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Payment</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
